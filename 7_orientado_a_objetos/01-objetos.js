@@ -56,6 +56,15 @@ var auto = {
   Para instanciar las clases se usa el operador new.
 */
 
+//Función constructora
+/*No va a ser ejecutada, para indicar que va a ser una función constructora tiene que empezar en mayúscula */
+function Pais( nombre){
+	this.nombre=nombre;
+}
+//Objeto vacio
+var venezuela = new Pais('Venezuela');
+
+
 //Ejemplo (fecha1 y fecha2 son instancias de Date);
 var fecha = new Date();
 console.log(fecha.getMinutes());
